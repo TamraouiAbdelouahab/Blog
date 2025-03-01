@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+.InputDiv
+{
+    padding: 20px;
+}
+.InputDiv > label
+{
+    font-family: sans-serif;
+}
+.InputDiv > input
+{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    display: block;
+}
+.InputDiv > input:focus
+{
+    border: 1px solid blue;
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+}
+.InputDiv > button{
+    margin: 1em 0;
+    cursor: pointer;
+    text-align: end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(64, 123, 241);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.InputDiv > button:hover{
+    padding: 10.5px 15.5px;
+    background-color: rgb(45, 110, 240);
+}
+.error{
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 10px;
+}

@@ -1,0 +1,77 @@
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+.main{
+    width: 95%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: calc(10% / 3);
+    row-gap: 20px;
+}
+.elementProduct{
+    border: 1px solid black;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.elementProduct h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.elementProduct p{
+    color: brown;
+    text-align: end;
+    font-weight: 900;
+}
+.divButtons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.editButton button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(124, 240, 93);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.editButton button:hover{
+    background-color: rgb(64, 184, 31);
+}
+.deleteButton button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(245, 114, 84);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.deleteButton button:hover{
+    background-color: rgb(229, 59, 21);
+}
+
+.addProductButton{
+    margin: 1em 0;
+    cursor: pointer;
+    text-align: end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(64, 123, 241);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.addProductButton:hover{
+    padding: 10.5px 15.5px;
+    background-color: rgb(45, 110, 240);
+}
+.divButton{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+}
+
